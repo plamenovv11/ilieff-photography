@@ -1,6 +1,6 @@
 /*  ---------------------------------------------------
-    Template Name: Phozogy
-    Description:  Phozogy photography HTML Template
+    Template Name: Ilieff
+    Description:  Ilieff photography HTML Template
     Author: Colorlib
     Author URI: https://colorlib.com
     Version: 1.0

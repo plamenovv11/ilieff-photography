@@ -26,20 +26,21 @@
     <style>
         @media only screen and (max-width: 767px) {
             .hs-item.set-bg {
-                background-size: contain !important;
+                background-size: cover !important;
                 background-repeat: no-repeat !important;
-                height: 50vh !important;
-                max-height: 400px !important;
+                height: 45vh !important;
+                max-height: 350px !important;
                 background-color: #000 !important;
             }
 
             .hs-text {
-                padding-top: 50px !important;
+                padding-top: 80px !important;
             }
 
             .hs-text h2 {
                 font-size: 24px !important;
                 margin-bottom: 15px !important;
+                margin-top: 20px !important;
             }
 
             .hs-text p {
@@ -53,6 +54,30 @@
 
             .pf-item {
                 width: 100% !important;
+                margin-bottom: 20px !important;
+            }
+
+            /* Fix services section overlap on mobile */
+            .hero-section {
+                margin-bottom: 45px !important;
+            }
+
+            .services-section.spad {
+                padding-top: 45px !important;
+            }
+
+            /* Categories section mobile adjustments */
+            .categories-section .section-title {
+                text-align: center !important;
+                margin-bottom: 30px !important;
+            }
+
+            .categories-section .section-title p {
+                text-align: center !important;
+            }
+
+            .categories-section .right-btn {
+                text-align: center !important;
                 margin-bottom: 20px !important;
             }
         }
@@ -155,10 +180,19 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-item">
+                        <img src="img/services/service-label.jpg" alt="Label Design Service" class="img-fluid">
+                        <h3>Custom Label Design</h3>
+                        <p>Transform your brand identity with our professional label and logo design services.
+                            We create distinctive visual elements that make your business stand out.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services-item">
                         <img src="img/services/service-2.jpg" alt="">
                         <h3>Videos</h3>
                         <p>Cinematic videography services for events, weddings, and commercial projects.
-                            Our team creates compelling visual stories that capture the essence of your special moments.
+                            Our team creates compelling visual stories that capture the essence of your special
+                            moments.
                         </p>
                     </div>
                 </div>
@@ -166,7 +200,8 @@
                     <div class="services-item">
                         <img src="img/services/service-3.jpg" alt="">
                         <h3>Editing</h3>
-                        <p>Expert post-production services including color correction, retouching, and artistic editing.
+                        <p>Expert post-production services including color correction, retouching, and artistic
+                            editing.
                             We ensure every image meets the highest professional standards.</p>
                     </div>
                 </div>
